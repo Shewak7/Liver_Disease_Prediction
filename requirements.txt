@@ -1,7 +1,7 @@
-streamlit==1.19.0
-pandas==1.5.3
-numpy==1.23.4
-scikit-learn==1.1.2
-sqlalchemy==2.0.25
-psycopg2==2.9.3
-pickle-mixin==1.0.2
+pickle-mixin
+streamlit
+pandas
+numpy
+scikit-learn
+sqlalchemy
+psycopg2-binary
