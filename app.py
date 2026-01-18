@@ -7,7 +7,7 @@ import uuid
 from sqlalchemy import create_engine, text
 
 # Database connection
-DATABASE_URL = "postgresql://shewak:RsCYFIh2R75LmN2T7t6ZpfE20xhRO5F3@dpg-d076cdpr0fns73891uig-a.oregon-postgres.render.com/liverdb"  # Change this
+DATABASE_URL = "postgresql://liver_user_predictions_user:lgqBC6O1YJjma60bjdgc0WFDyqogpwEM@dpg-d5mfrnogjchc738muqug-a.virginia-postgres.render.com/liver_user_predictions"  # Change this
 
 engine = create_engine(DATABASE_URL)
 
@@ -113,3 +113,4 @@ if st.button("🔍 Predict"):
         })
 
     st.info("✅ Prediction saved to the database.")
+
