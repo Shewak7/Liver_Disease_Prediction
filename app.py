@@ -7,7 +7,7 @@ import uuid
 from sqlalchemy import create_engine, text
 
 # Database connection
-DATABASE_URL = "postgresql://liver_user_predictions_user:lgqBC6O1YJjma60bjdgc0WFDyqogpwEM@dpg-d5mfrnogjchc738muqug-a.virginia-postgres.render.com/liver_user_predictions"  # Change this
+DATABASE_URL = "postgresql://liver_user:U0MomnFuiYa6WsYv4LQLbMhc9rnB2enY@dpg-d6v706lm5p6s73a63nk0-a.oregon-postgres.render.com/liver"  # Change this
 
 engine = create_engine(DATABASE_URL)
 
