@@ -8,7 +8,7 @@ from sqlalchemy import create_engine, text
 # ==============================
 # 🔹 DATABASE CONFIG (CHANGE HERE)
 # ==============================
-DATABASE_URL = "postgresql://liver_user:U0MomnFuiYa6WsYv4LQLbMhc9rnB2enY@dpg-d6v706lm5p6s73a63nk0-a.oregon-postgres.render.com/liver"
+DATABASE_URL = "postgresql://liver2_user:F4KAgG8HhDoOIwY6LooHtNAxm1gtUx5P@dpg-d7j24acvikkc73esltc0-a.oregon-postgres.render.com/liver2"
 
 # Create engine with SSL (IMPORTANT for Render)
 engine = create_engine(
